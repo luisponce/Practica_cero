@@ -1,0 +1,21 @@
+#!/bin/bash
+
+cd ~/Proyects/Practica_cero;
+
+mkdir testOutput/bubble;
+
+echo input 1; echo ;
+./bubbleSort.o < inputs/1.txt > testOutput/bubble/bubbleOutput1.txt;
+tail -1 testOutput/bubble/bubbleOutput1.txt
+
+echo input 2; echo ;
+./bubbleSort.o < inputs/2.txt > testOutput/bubble/bubbleOutput2.txt;
+tail -1 testOutput/bubble/bubbleOutput2.txt
+
+echo input 3; echo;
+./bubbleSort.o < inputs/3.txt > testOutput/bubble/bubbleOutput3.txt;
+tail -1 testOutput/bubble/bubbleOutput3.txt
+
+echo intput 4; echo ;
+./bubbleSort.o < inputs/4.txt > testOutput/bubble/bubbleOutput4.txt;
+tail -1 testOutput/bubble/bubbleOutput4.txt
