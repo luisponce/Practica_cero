@@ -23,10 +23,10 @@ int main (){
   for (int i=0; i<arr.size(); i++){
     for(int j=arr.size()-1; j>i; j--){
       if(arr[j].compare(arr[j-1]) < 0){
-	//intercambiar arr[j] y arr[j-1]
-	temp = arr[j-1];
-	arr[j-1] = arr[j];
-	arr[j] = temp;
+          //intercambiar arr[j] y arr[j-1]
+          temp = arr[j-1];
+          arr[j-1] = arr[j];
+          arr[j] = temp;
       }
     }
   }
@@ -34,7 +34,7 @@ int main (){
   //imprimir arreglo ordenado
   cout<<"Output: "<<endl<<endl;
   for(int i=0; i<arr.size(); i++){
-    cout<<arr[i]<<endl;
+      cout<<arr[i]<<endl;
   }
     
   //imprimir cuanto tiempo tardo en ordenar el arrglo

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+g++ -o quick.o src/quickSort.cpp;
+
+mkdir testOutput/quick;
+
+echo input 1;
+./quick.o < inputs/1.txt > testOutput/quick/Output1.txt;
+tail -1 testOutput/quick/Output1.txt
+
+echo input 2;
+./quick.o < inputs/2.txt > testOutput/quick/Output2.txt;
+tail -1 testOutput/quick/Output2.txt
+
+echo input 3;
+./quick.o < inputs/3.txt > testOutput/quick/Output3.txt;
+tail -1 testOutput/quick/Output3.txt
+
+echo intput 4;
+./quick.o < inputs/4.txt > testOutput/quick/Output4.txt;
+tail -1 testOutput/quick/Output4.txt
