@@ -58,7 +58,7 @@ int main (){
     
   //imprimir cuanto tiempo tardo en ordenar el arrglo
   timer = clock() - timer;
-  cout<<endl<<"Done in "<<((float) timer)/CLOCKS_PER_SEC<<" seconds"<<endl;
+  cout<<endl<<"Done in "<<(float)((float) timer)/CLOCKS_PER_SEC<<" seconds"<<endl;
 
   return 0;
 }
