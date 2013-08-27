@@ -100003,4 +100003,4 @@ zurullos
 zutana
 zutanas
 
-Done in 0.28 seconds
+Done in 0.243248 seconds
