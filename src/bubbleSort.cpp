@@ -8,6 +8,14 @@ using namespace std;
 
 vector <string> arr;
 
+//intercambiar los valores de dos posiciones del arreglo
+void Exchange(int posA, int posB){
+  string temp;
+  temp=arr[posA];
+  arr[posA]=arr[posB];
+  arr[posB]=temp;
+}
+
 int main (){
   string temp; //Temporal para guardar los valores leidos.
   while(cin>>temp){  //Lee valores "mientras pueda".
@@ -23,10 +31,8 @@ int main (){
   for (int i=0; i<arr.size(); i++){
     for(int j=arr.size()-1; j>i; j--){
       if(arr[j].compare(arr[j-1]) < 0){
-          //intercambiar arr[j] y arr[j-1]
-          temp = arr[j-1];
-          arr[j-1] = arr[j];
-          arr[j] = temp;
+	//intercambiar arr[j] y arr[j-1]
+	Exchange(j,j-1);
       }
     }
   }
@@ -37,9 +43,14 @@ int main (){
       cout<<arr[i]<<endl;
   }
     
+  cout<<endl;
+
+  //imprimir espacio real aproximado ocupado por el vector (en bytes)
+  cout<<"Memory space used to sort: "<<sizeof(string)*arr.size()<<endl;
+
   //imprimir cuanto tiempo tardo en ordenar el arrglo
   timer = clock() - timer;
-  cout<<endl<<"Done in "<<((float) timer)/CLOCKS_PER_SEC<<" seconds"<<endl;
+  cout<<"Done in "<<((float) timer)/CLOCKS_PER_SEC<<" seconds"<<endl;
 
   return 0;
 }
