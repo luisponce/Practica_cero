@@ -230224,4 +230224,5 @@ zutanas
 zutano
 zutanos
 
-Done in 0.575947 seconds
+Done in 0.582731 seconds
+Memory space used to sort: 1841768 bytes.

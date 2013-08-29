@@ -60,5 +60,9 @@ int main (){
   timer = clock() - timer;
   cout<<endl<<"Done in "<<(float)((float) timer)/CLOCKS_PER_SEC<<" seconds"<<endl;
 
+  //imprimir cuanto espcaio estimado ocupo el vector
+  long long memSpace=sizeof(string) * arr.size();
+  cout<<"Memory space used to sort: "<<memSpace<<" bytes."<<endl;
+
   return 0;
 }

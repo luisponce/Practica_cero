@@ -100003,4 +100003,5 @@ zurullos
 zutana
 zutanas
 
-Done in 0.243248 seconds
+Done in 0.242705 seconds
+Memory space used to sort: 800000 bytes.
