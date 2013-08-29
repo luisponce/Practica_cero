@@ -86,7 +86,7 @@ int main (){
   clock_t timer;
   timer = clock();
   
-  //ordenar
+  //construir heap en arr y ordenar
   BuildHeap();
   Heapsort();
 
@@ -99,6 +99,9 @@ int main (){
   //imprimir cuanto tiempo tardo en ordenar el arrglo
   timer = clock() - timer;
   cout<<endl<<"Done in "<<((float) timer)/CLOCKS_PER_SEC<<" seconds"<<endl;
+
+  //imprimir espacio real estimado usado por el algoritmo
+  cout<<"Memory space used :"<<sizeof(string)*arr.size()<<" bytes."<<endl;
 
   return 0;
 }

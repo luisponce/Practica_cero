@@ -45,12 +45,12 @@ int main (){
     
   cout<<endl;
 
-  //imprimir espacio real aproximado ocupado por el vector (en bytes)
-  cout<<"Memory space used to sort: "<<sizeof(string)*arr.size()<<endl;
-
   //imprimir cuanto tiempo tardo en ordenar el arrglo
   timer = clock() - timer;
   cout<<"Done in "<<((float) timer)/CLOCKS_PER_SEC<<" seconds"<<endl;
+
+  //imprimir espcaio real aproximado ocupado por el vector (en bytes)
+  cout<<"Memory space used to sort : "<<sizeof(string)*arr.size()<<endl;
 
   return 0;
 }
