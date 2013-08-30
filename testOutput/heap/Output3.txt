@@ -100003,4 +100003,5 @@ zurullos
 zutana
 zutanas
 
-Done in 0.39 seconds
+Done in 0.4 seconds
+Memory space used :400000 bytes.

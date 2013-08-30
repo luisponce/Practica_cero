@@ -1004,3 +1004,4 @@ zangarrianas
 zarandas
 
 Done in 0 seconds
+Memory space used :4000 bytes.

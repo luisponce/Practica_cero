@@ -1003,5 +1003,5 @@ zamarreasteis
 zangarrianas
 zarandas
 
-Done in 0.001967 seconds
-Memory space used to sort: 8000 bytes.
+Done in 0 seconds
+Memory space used to sort: 4000 bytes.

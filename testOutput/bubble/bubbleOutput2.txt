@@ -10003,5 +10003,5 @@ zurrarnos
 zurriagaron
 zurriagues
 
-Memory space used to sort: 80000
-Done in 2.54748 seconds
+Done in 3.27 seconds
+Memory space used to sort : 40000

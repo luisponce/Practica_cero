@@ -10003,4 +10003,5 @@ zurrarnos
 zurriagaron
 zurriagues
 
-Done in 0.03 seconds
+Done in 0.02 seconds
+Memory space used :40000 bytes.
